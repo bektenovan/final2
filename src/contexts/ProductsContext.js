@@ -2,8 +2,8 @@ import React, { useReducer } from "react";
 import axios from "axios";
 
 export const productsContext = React.createContext();
-// const API = "http://localhost:8000/data";
-const API = "https://rainbow-react-hackathon.herokuapp.com/data"
+const API = "http://localhost:8000/products";
+// const API = "https://rainbow-react-hackathon.herokuapp.com/data"
 
 const INIT_STATE = {
   products: [],
